@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class taskNine {
@@ -12,17 +13,17 @@ public class taskNine {
         for (int i = 0; i < arraysecond.length; i++) {
             arraysecond[i] = object.nextInt();
         }
-            int i=0;
-            int sum=0;
-            for(int j=0;j<arraysecond.length;j++)
-            {
-                for(i=0;i<array.length;i++) {
+        int i=0;
+        int sum=0;
+        for(int j=0;j<arraysecond.length;j++)
+        {
+            for(i=0;i<array.length;i++) {
 
-                    sum = sum + array[i] + arraysecond[j];
-                }
-
+                sum = sum + array[i] + arraysecond[j];
             }
-            System.out.println(sum);
+
+        }
+        System.out.println("Total:"+sum);
     }
     public static void main(String[] args) {
         Scanner object = new Scanner(System.in);
