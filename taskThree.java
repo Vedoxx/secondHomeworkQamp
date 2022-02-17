@@ -27,7 +27,7 @@ public class taskThree {
             int sizeOfArray = object.nextInt();
             int[] simpleArray = new int[sizeOfArray];
             arrayInputReverse(simpleArray,sizeOfArray);
-            System.out.println("Would you like to type again (Yes-y)(No-y)");
+            System.out.println("Would you like to type again (Yes-y)(No-n)");
             answer = object.next().charAt(0);
         }while(answer=='Y'||(answer=='y'));
 
