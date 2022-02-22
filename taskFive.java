@@ -6,6 +6,7 @@ public class taskFive {
         Scanner object=new Scanner(System.in);
         char answer='Y';
         do{
+
         System.out.print("Enter lower number in range:");
         int lowerRange= object.nextInt();
         System.out.print("Enter larger number in range:");
@@ -19,9 +20,9 @@ public class taskFive {
                 System.out.print(" "+i);
             }
         }
-            System.out.println();
+        System.out.println();
         System.out.println("Would you like to type again (Yes-y)(No-y)");
-            System.out.print("Answer:");
+        System.out.print("Answer:");
         answer = object.next().charAt(0);
     }while(answer=='Y'||(answer=='y'));
     }
