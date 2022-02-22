@@ -3,6 +3,14 @@ import java.util.Scanner;
 
 
 public class taskEight {
+    public static void main(String[] args){
+        System.out.print("Enter the size of string array:");
+        Scanner object=new Scanner(System.in);
+        int sizeString= object.nextInt();
+        String[] stringArray= new String[sizeString];
+        stringArray(stringArray);
+
+    }
     static void stringArray(String[] array)
     {
         Scanner object=new Scanner(System.in);
@@ -19,14 +27,6 @@ public class taskEight {
                 f++;
             }
         }
-
-    }
-    public static void main(String[] args){
-        System.out.print("Enter the size of string array:");
-        Scanner object=new Scanner(System.in);
-        int sizeString= object.nextInt();
-        String[] stringArray= new String[sizeString];
-        stringArray(stringArray);
 
     }
 }
