@@ -15,7 +15,6 @@ public class taskSeven {
     }
     static void arrayInput( int[] array, int[] arraysecond) {
         Scanner object = new Scanner(System.in);
-        int counter = 0;
         System.out.println("Enter integer elements of your first array:");
         for (int i = 0; i < array.length; i++) {
             array[i] = object.nextInt();
